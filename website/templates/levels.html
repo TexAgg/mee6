@@ -38,7 +38,7 @@
 				<div class="list-group">
 					{% for player in players %}
 						<div class="list-group-item">
-							<div class="row">
+							<div class="row" id="{{player['rank']}}">
 								<div class="col-md-1 col-sm-1 col-xs-1">
 									<h3><strong>#{{loop.index}}</strong></h3>
 								</div>

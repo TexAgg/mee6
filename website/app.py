@@ -1227,7 +1227,8 @@ def levels(server_id):
             'name': _players[i+1],
             'avatar': _players[i+2],
             'discriminator': _players[i+3],
-            'id': _players[i+4]
+            'id': _players[i+4],
+            'rank': i
         }
         players.append(player)
 
